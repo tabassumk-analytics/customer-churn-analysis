@@ -62,7 +62,7 @@ Senior Citizens: Churn among senior citizens was 42%, notably higher than the 24
 **Insight:** Seniors churn more—this segment may need clearer communication or simplified services.
 
 4. Churn by Tenure Group
-![charts](churn_by_tenure.png)
+![churn_by_tenure](charts/churn_by_tenure.png)
 **Insight:** Churn risk is highest in the first 10 months. A strong onboarding experience can improve retention.
 
 5. Churn Trend Over Time
