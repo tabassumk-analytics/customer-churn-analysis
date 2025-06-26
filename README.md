@@ -50,15 +50,15 @@ Senior Citizens: Churn among senior citizens was 42%, notably higher than the 24
 **Visualizations & Business Insights**
 
 1. Churn by Contract Type
-![charts](churn_by_contract.png)
+![churn_by_contract](charts/churn_by_contract.png)
 **Insight:** Customers with month-to-month contracts are most vulnerable to churn. Incentivizing long-term plans could improve retention.
 
 2. Churn by Internet Service Type
-![charts](churn_by_internet_service.png)
+![churn_by_internet_service](charts/churn_by_internet_service.png)
 **Insight:** Fiber optic users churn more frequently. Investigate service quality or pricing concerns.
 
 3. Churn by Senior Citizen Status
-![charts](churn_by_senior.png)
+![churn_by_senior](charts/churn_by_senior.png)
 **Insight:** Seniors churn more—this segment may need clearer communication or simplified services.
 
 4. Churn by Tenure Group
@@ -66,7 +66,7 @@ Senior Citizens: Churn among senior citizens was 42%, notably higher than the 24
 **Insight:** Churn risk is highest in the first 10 months. A strong onboarding experience can improve retention.
 
 5. Churn Trend Over Time
-![charts](churn_trend_by_tenure.png)
+![churn_trend_by_tenure](charts/churn_trend_by_tenure.png)
 **Insight:** Churn rate decreases as customers stay longer. Focus early on building loyalty to reduce attrition.
 
 **Predictive Modeling Results**
@@ -77,7 +77,7 @@ Logistic Regression (Final Model)
 - Best balance of simplicity and performance
 - Easier to explain to non-technical stakeholders
 
-![charts](confusion_matrix_logistic.png)
+![churn_trend_by_tenure](charts/confusion_matrix_logistic.png)
 
 **Classification Report:**
 - Stayed → Precision: 0.83 | Recall: 0.89 | F1: 0.86
@@ -87,7 +87,7 @@ Random Forest (for comparison)
 - **Accuracy**: 78.25%
 - Slightly lower recall for churned customers
 
-![charts](confusion_matrix_rf.png)
+![confusion_matrix](charts/confusion_matrix_rf.png)
 
 **Overall Model result:** Logistic Regression slightly outperformed Random Forest and is easier to interpret. It was selected as the final model for churn prediction.
 
