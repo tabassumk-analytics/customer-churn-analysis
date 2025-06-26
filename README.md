@@ -58,8 +58,7 @@ Senior Citizens: Churn among senior citizens was 42%, notably higher than the 24
 **Insight:** Fiber optic users churn more frequently. Investigate service quality or pricing concerns.
 
 3. Churn by Senior Citizen Status
-![churn_by_senior](charts/churn_by_senior.png)
-       **Insight:** Seniors churn more—this segment may need clearer communication or simplified services.
+![churn_by_senior](charts/churn_by_senior.png) **Insight:** Seniors churn more—this segment may need clearer communication or simplified services.
 
 5. Churn by Tenure Group
 ![churn_by_tenure](charts/churn_by_tenure.png)
