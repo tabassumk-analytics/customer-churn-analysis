@@ -50,23 +50,23 @@ Senior Citizens: Churn among senior citizens was 42%, notably higher than the 24
 **Visualizations & Business Insights**
 
 1. Churn by Contract Type
-![Churn by Contract Type](churn_by_contract.png)
+![chart](churn_by_contract.png)
 **Insight:** Customers with month-to-month contracts are most vulnerable to churn. Incentivizing long-term plans could improve retention.
 
 2. Churn by Internet Service Type
-![Churn by Internet Service Type](churn_by_internet_service.png)
+![chart](churn_by_internet_service.png)
 **Insight:** Fiber optic users churn more frequently. Investigate service quality or pricing concerns.
 
 3. Churn by Senior Citizen Status
-![Churn by Senior Citizen Status](churn_by_senior.png)
+![chart](churn_by_senior.png)
 **Insight:** Seniors churn more—this segment may need clearer communication or simplified services.
 
 4. Churn by Tenure Group
-![Churn by Tenure](churn_by_tenure.png)
+![chart](churn_by_tenure.png)
 **Insight:** Churn risk is highest in the first 10 months. A strong onboarding experience can improve retention.
 
 5. Churn Trend Over Time
-![Churn Rate by Tenure](churn_trend_by_tenure.png)
+![chart](churn_trend_by_tenure.png)
 **Insight:** Churn rate decreases as customers stay longer. Focus early on building loyalty to reduce attrition.
 
 **Predictive Modeling Results**
@@ -77,7 +77,7 @@ Logistic Regression (Final Model)
 - Best balance of simplicity and performance
 - Easier to explain to non-technical stakeholders
 
-![Confusion Matrix – Logistic Regression](confusion_matrix_logistic.png)
+![chart](confusion_matrix_logistic.png)
 
 **Classification Report:**
 - Stayed → Precision: 0.83 | Recall: 0.89 | F1: 0.86
@@ -87,7 +87,7 @@ Random Forest (for comparison)
 - **Accuracy**: 78.25%
 - Slightly lower recall for churned customers
 
-![Confusion Matrix – Random Forest](confusion_matrix_rf.png)
+![chart](confusion_matrix_rf.png)
 
 **Overall Model result:** Logistic Regression slightly outperformed Random Forest and is easier to interpret. It was selected as the final model for churn prediction.
 
