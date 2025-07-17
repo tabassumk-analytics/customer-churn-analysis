@@ -10,7 +10,7 @@ This project dives into a real-world dataset from a telecom provider to:
 
 The analysis combines business thinking, data science techniques, and strong storytelling to help telecom stakeholders understand churn better and act on it.
 
-**Dataset& Tools** 
+**Dataset & Tools** 
 
 - **Tools Used:** Python (Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, Jupyter Notebook)
 - **Source:** [Kaggle – Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
